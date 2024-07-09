@@ -170,10 +170,70 @@ nav button{
     border-radius: 16px;
 }
 .inspiration-content{
+    max-width: 850px;
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
     gap:20px;
 }
 .inspiration-video{
     border-radius: 16px;
+}
+
+/* current target style */
+.current-target{
+    max-width: 1140px;
+    margin: 0 auto;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.targets{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 40px;
+    gap: 30px;
+}
+.target{
+    width: 33%;
+    height: 100%;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.target-content{
+    max-width: 850px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.target img{
+    height: 50px;
+    width: 50px;
+    margin-bottom: 20px;
+}
+.html{
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+}
+.css{
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05);
+}
+
+.js{
+    border-radius: 16px;
+    background: rgba(255, 223, 0, 0.05);
+}
+.target a{
+    text-decoration: underline;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    color: rgb(13, 19, 33);
+    margin-top: 25px;
 }
