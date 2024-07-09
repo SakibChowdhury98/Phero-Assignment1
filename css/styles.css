@@ -149,6 +149,7 @@ nav button{
     padding: 12px 20px;
     color: rgb(13, 19, 33);
     background-color: rgba(13, 19, 33, 0.0);
+    cursor: pointer;
 
 }
 
@@ -237,6 +238,59 @@ nav button{
     color: rgb(13, 19, 33);
     margin-top: 25px;
 }
+
+/* next target */
+.next-target-container{
+    max-width: 1140px;
+    margin: 0 auto;
+    margin-top: 50px;
+    display:flex ;
+    flex-direction: column;
+    gap: 30px;
+}
+.next-targets{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.next-target{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 40px;
+    border: 1px solid rgba(11, 13, 33, 0.4);
+    border-radius: 16px;
+}
+.next-content{
+    max-width: 850px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+.next-target img{
+    height: 100px;
+    width: 100px;
+}
+.content-box{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.content-box>a{
+        text-decoration: underline;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 19px;
+        color: rgb(13, 19, 33);
+        margin-top: 25px;
+}
+
+
 
 /* I need support */
 .support{
