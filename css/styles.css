@@ -114,6 +114,12 @@ nav button{
     margin-top: 50px;
     padding: 50px;
 }
+.content-description{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color:rgba(13, 19, 33, 0.7);
+}
 .first{
     border-radius: 16px;
     background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
@@ -132,5 +138,42 @@ nav button{
     display: flex;
     flex-direction: column;
     gap: 20px;
+}
+.btn{
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.7);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    border: 1px solid rgba(13, 19, 33, 0.7);
+    padding: 12px 20px;
+    color: rgb(13, 19, 33);
+    background-color: rgba(13, 19, 33, 0.0);
 
+}
+
+/* My inspiration */
+.inspiration{
+    max-width: 1140px;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+.video-container{
+    padding: 32px;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+}
+.inspiration-content{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+.inspiration-video{
+    border-radius: 16px;
 }
