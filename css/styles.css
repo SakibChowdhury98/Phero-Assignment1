@@ -9,6 +9,13 @@
 .red{
     color: red;
 }
+.section-title{
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    color: rgb(13, 19, 33);
+    text-align: center;
+}
 .section-description{
     font-size: 16px;
     font-weight: 400;
@@ -86,3 +93,44 @@ nav button{
     cursor: pointer;
 }
 
+/* Why web development style */
+.why{
+    max-width: 1140px;
+    margin: 0px auto;
+    margin-top: 100px;
+    padding: 80px 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    border-radius: 16px;
+    background-color: rgba(13, 19, 33, 0.02);
+}
+
+.section-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-top: 50px;
+    padding: 50px;
+}
+.first{
+    border-radius: 16px;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+}
+.second{
+    display: flex;
+    flex-direction: row-reverse;
+    border-radius: 16px;
+    background: linear-gradient(270.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+}
+.third{
+    border-radius: 16px;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
